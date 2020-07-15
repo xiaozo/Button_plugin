@@ -57,6 +57,7 @@
        
         [_button addTarget:self action:@selector(tapAction) forControlEvents:UIControlEventTouchUpInside];
         _viewId = viewId;
+        ///获取通道名字 初始化channel 可以通过它调用flutter
         NSString* channelName = [NSString stringWithFormat:@"plugins.metre.com/button_%lld", viewId];
         _channel = [FlutterMethodChannel methodChannelWithName:channelName binaryMessenger:messenger];
        

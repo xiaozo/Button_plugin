@@ -88,6 +88,7 @@ class ButtonController {
   }
   Future<bool> _methodCallHandler(MethodCall call) {
     switch (call.method) {
+    ///实现onClickListener方法,给原生调用
       case 'onClickListener':
         _widget.onListener(_widget);
         return null;

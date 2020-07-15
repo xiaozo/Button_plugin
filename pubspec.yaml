@@ -1,8 +1,8 @@
 name: button
 description: A new Flutter plugin.
-version: 0.0.1
-author:
-homepage:
+version: 0.0.2
+#author: zoulixiang <807581848@qq.com>
+homepage: https://github.com/xiaozo/Button_plugin
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
